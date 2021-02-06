@@ -196,3 +196,9 @@
     opacity: 0;
     color: #00ffa3;
 }
+
+@media (max-width: 650px) {
+    .slick-dots li button:before {
+        content: '━━';
+    }
+}
