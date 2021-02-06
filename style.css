@@ -524,4 +524,8 @@ html {
         width: 85%;
     }
 
+    .naslov-partneri {
+        margin-top: 10px;
+        font-size: 16px;
+    }
 }
