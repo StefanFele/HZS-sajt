@@ -25,6 +25,7 @@ html {
 }
 
 .dugme-ucestvuj {
+    float: left;
     position: relative;
     display: flex;
     align-items: center;
@@ -40,6 +41,18 @@ html {
     background-color: #7952d8;
     transition: all 200ms ease-in-out;
     cursor: pointer;
+}
+
+.tajmer {
+    height: 30px;
+    display: flex;
+    padding-left: 20px;
+    align-items: center;
+}
+
+#timer {
+    font-size: 20px;
+    color: #00ffa3;
 }
 
 .dugmici-mreze {
@@ -271,8 +284,14 @@ html {
     width: 50%;
 }
 
-.nat {
-    margin-bottom: 50px;
+.nat .for-slick-slider .items img {
+    width: 70%;
+}
+
+.nat .for-slick-slider .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*****slider***********/
@@ -509,7 +528,12 @@ html {
     }
 
     .dugme-ucestvuj {
-        margin-top: 40px;
+        margin-top: 30px;
+        float: none;
+    }
+
+    .tajmer {
+        padding-left: 0;
     }
 
     .dugmici-mreze img {
