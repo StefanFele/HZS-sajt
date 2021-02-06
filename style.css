@@ -2,7 +2,7 @@ body,
 html {
     margin: 0 auto 0 auto;
     background-color: #bebaba;
-    font-family: Gilroy;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 }
 
@@ -261,11 +261,21 @@ html {
     font-size: 18px;
 }
 
+.zlatni-partner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.zlatni-partner img {
+    width: 50%;
+}
+
 /*****slider***********/
 .naturalni-partneri {
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
     height: auto;
     width: 100%;
 }
