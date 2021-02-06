@@ -310,8 +310,6 @@ html {
     margin: 0;
     padding: 0;
     background-color: #00ffa3;
-
-
 }
 
 .slick-dots li.slick-active button:before {
@@ -471,6 +469,10 @@ html {
         width: 100%;
         height: auto;
         margin: 10px;
+    }
+
+    .slick-dots li.slick-active button {
+        width: 20px;
     }
 
     .for-slick-slider {
