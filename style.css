@@ -1,11 +1,24 @@
 html,
 body {
-    cursor: url(img/HZSlogo.png), default !important;
+    cursor: url(img/cursor.png), auto !important;
     margin: 0 auto 0 auto;
     background-color: #bebaba;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 16px;
 
+}
+
+::-webkit-scrollbar-track {
+    background-color: #161616;
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background-color: #161616;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #00ffa3;
 }
 
 .homepage {
@@ -16,6 +29,8 @@ body {
     align-items: center;
     justify-content: space-between;
 }
+
+
 
 .text-obavestenje {
     z-index: 101;
@@ -87,10 +102,6 @@ body {
     align-self: flex-end;
     margin-bottom: 31.8vh;
 }
-
-
-
-
 
 @-webkit-keyframes sporedni-logo {
     0% {
